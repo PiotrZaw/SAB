@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ea0612c-fc50-4aa5-aaa9-b50cfc5b779d" name="Administrator@WIN-UJ2F0VHAS36 2013-05-16 12:29:24" runUser="WIN-UJ2F0VHAS36\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="31046817-227f-4161-9a97-5d34efa999fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_WIN-UJ2F0VHAS36 2013-05-16 12_29_24">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\DbTestHelpers\TDD.DbTestHelpers.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\DbTestHelpers\YamlDotNet.Core.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-16T12:29:24.2552000+02:00" queuing="2013-05-16T12:29:24.3069598+02:00" start="2013-05-16T12:29:24.3103779+02:00" finish="2013-05-16T12:29:24.8631335+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAllPost_OnePostInDb_ReturnOnePost" storage="c:\users\administrator\documents\visual studio 2010\projects\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="8eb3fc89-a933-3141-9fc4-10d31ead6588">
+      <Execution id="0cb998a5-67b9-4842-98d1-9bde00701750" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/Visual Studio 2010/Projects/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_OnePostInDb_ReturnOnePost" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" executionId="0cb998a5-67b9-4842-98d1-9bde00701750" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0cb998a5-67b9-4842-98d1-9bde00701750" testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" testName="GetAllPost_OnePostInDb_ReturnOnePost" computerName="WIN-UJ2F0VHAS36" duration="00:00:00.8133081" startTime="2013-05-16T12:29:24.3113545+02:00" endTime="2013-05-16T12:29:24.8562973+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cb998a5-67b9-4842-98d1-9bde00701750">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Blog.DAL.Tests.RepositoryTests.GetAllPost_OnePostInDb_ReturnOnePost threw exception: 
+System.InvalidOperationException: Unable to complete operation. The supplied SqlConnection does not specify an initial catalog.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlProviderServices.GetDatabaseName(SqlConnection sqlConnection)
+   at System.Data.SqlClient.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists()
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext)
+   at System.Data.Entity.Database.CreateIfNotExists()
+   at Blog.DAL.Tests.RepositoryTests.GetAllPost_OnePostInDb_ReturnOnePost() in C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\RepositoryTests.cs:line 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

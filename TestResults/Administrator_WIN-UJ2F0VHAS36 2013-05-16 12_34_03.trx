@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e5a33048-8ab2-4c33-a50a-072ed0d4b8cb" name="Administrator@WIN-UJ2F0VHAS36 2013-05-16 12:34:03" runUser="WIN-UJ2F0VHAS36\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="31046817-227f-4161-9a97-5d34efa999fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_WIN-UJ2F0VHAS36 2013-05-16 12_34_03">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\DbTestHelpers\TDD.DbTestHelpers.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\DbTestHelpers\YamlDotNet.Core.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-16T12:34:03.6819775+02:00" queuing="2013-05-16T12:34:03.7281180+02:00" start="2013-05-16T12:34:03.7558023+02:00" finish="2013-05-16T12:34:08.7468861+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAllPost_OnePostInDb_ReturnOnePost" storage="c:\users\administrator\documents\visual studio 2010\projects\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="8eb3fc89-a933-3141-9fc4-10d31ead6588">
+      <Execution id="104a10c1-d758-4675-afba-253bbf87d796" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/Visual Studio 2010/Projects/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_OnePostInDb_ReturnOnePost" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" executionId="104a10c1-d758-4675-afba-253bbf87d796" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="104a10c1-d758-4675-afba-253bbf87d796" testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" testName="GetAllPost_OnePostInDb_ReturnOnePost" computerName="WIN-UJ2F0VHAS36" duration="00:00:03.4167342" startTime="2013-05-16T12:34:03.7755768+02:00" endTime="2013-05-16T12:34:08.6585600+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="104a10c1-d758-4675-afba-253bbf87d796">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at Blog.DAL.Tests.RepositoryTests.GetAllPost_OnePostInDb_ReturnOnePost() in C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\RepositoryTests.cs:line 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

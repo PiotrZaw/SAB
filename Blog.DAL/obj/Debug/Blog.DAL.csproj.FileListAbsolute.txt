@@ -1,0 +1,14 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL\bin\Debug\Blog.DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL\obj\Debug\Blog.DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL\obj\Debug\Blog.DAL.pdb
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\bin\Debug\Blog.DAL.pdb
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\obj\Debug\Blog.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\obj\Debug\Blog.DAL.dll
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\obj\Debug\Blog.DAL.pdb

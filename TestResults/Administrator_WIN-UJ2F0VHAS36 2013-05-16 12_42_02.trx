@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="368f4b52-c617-4046-8d31-465699f5cacc" name="Administrator@WIN-UJ2F0VHAS36 2013-05-16 12:42:02" runUser="WIN-UJ2F0VHAS36\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="31046817-227f-4161-9a97-5d34efa999fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_WIN-UJ2F0VHAS36 2013-05-16 12_42_02">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\DbTestHelpers\TDD.DbTestHelpers.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\DbTestHelpers\YamlDotNet.Core.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-16T12:42:02.9332004+02:00" queuing="2013-05-16T12:42:02.9435081+02:00" start="2013-05-16T12:42:02.9492346+02:00" finish="2013-05-16T12:42:04.3407741+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAllPost_OnePostInDb_ReturnOnePost" storage="c:\users\administrator\documents\visual studio 2010\projects\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="8eb3fc89-a933-3141-9fc4-10d31ead6588">
+      <Execution id="f5ee57fd-239a-4949-af7b-0f16fcd5ddd8" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/Visual Studio 2010/Projects/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_OnePostInDb_ReturnOnePost" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" executionId="f5ee57fd-239a-4949-af7b-0f16fcd5ddd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f5ee57fd-239a-4949-af7b-0f16fcd5ddd8" testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" testName="GetAllPost_OnePostInDb_ReturnOnePost" computerName="WIN-UJ2F0VHAS36" duration="00:00:01.0429905" startTime="2013-05-16T12:42:02.9515252+02:00" endTime="2013-05-16T12:42:04.3201587+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5ee57fd-239a-4949-af7b-0f16fcd5ddd8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

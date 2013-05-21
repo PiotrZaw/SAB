@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1a7d8789-32bd-49a5-8302-078827d07656" name="Piotr@WINDOWS-14CGTOT 2013-05-21 15:18:04" runUser="WINDOWS-14CGTOT\Piotr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="31046817-227f-4161-9a97-5d34efa999fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Piotr_WINDOWS-14CGTOT 2013-05-21 15_18_04">
+      <DeploymentItem filename="C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\packages\DbTestHelpers\YamlDotNet.Core.dll" />
+      <DeploymentItem filename="C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll" />
+      <DeploymentItem filename="C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\packages\DbTestHelpers\TDD.DbTestHelpers.dll" />
+      <DeploymentItem filename="C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll" />
+      <DeploymentItem filename="C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-21T15:18:04.2637656+02:00" queuing="2013-05-21T15:18:05.7108453+02:00" start="2013-05-21T15:18:05.8668399+02:00" finish="2013-05-21T15:18:13.3392976+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddPost_WithoutRequiredData_ThrowsException" storage="c:\users\piotr\desktop\teamcity\temcity\temcity\blog\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="17028b1a-75d6-659c-d883-1bce7980463b">
+      <Execution id="cf7720f7-bf0f-43c6-abdb-f8b324b854fd" />
+      <TestMethod codeBase="C:/Users/Piotr/Desktop/TeamCity/temCity/temCity/Blog/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddPost_WithoutRequiredData_ThrowsException" />
+    </UnitTest>
+    <UnitTest name="GetAllPost_OnePostInDb_ReturnOnePost" storage="c:\users\piotr\desktop\teamcity\temcity\temcity\blog\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="8eb3fc89-a933-3141-9fc4-10d31ead6588">
+      <Execution id="20994243-401b-48ad-be0c-27c5e545f00a" />
+      <TestMethod codeBase="C:/Users/Piotr/Desktop/TeamCity/temCity/temCity/Blog/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_OnePostInDb_ReturnOnePost" />
+    </UnitTest>
+    <UnitTest name="AddPost_OnePostInDb_ReturnCorrectNumberOfPosts" storage="c:\users\piotr\desktop\teamcity\temcity\temcity\blog\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="a35c9170-4315-2bdb-070d-13a3313fa7f3">
+      <Execution id="a8902d8f-d894-4a48-84b0-9116a382cbb5" />
+      <TestMethod codeBase="C:/Users/Piotr/Desktop/TeamCity/temCity/temCity/Blog/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddPost_OnePostInDb_ReturnCorrectNumberOfPosts" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="17028b1a-75d6-659c-d883-1bce7980463b" executionId="cf7720f7-bf0f-43c6-abdb-f8b324b854fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" executionId="20994243-401b-48ad-be0c-27c5e545f00a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a35c9170-4315-2bdb-070d-13a3313fa7f3" executionId="a8902d8f-d894-4a48-84b0-9116a382cbb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cf7720f7-bf0f-43c6-abdb-f8b324b854fd" testId="17028b1a-75d6-659c-d883-1bce7980463b" testName="AddPost_WithoutRequiredData_ThrowsException" computerName="WINDOWS-14CGTOT" duration="00:00:04.7188955" startTime="2013-05-21T15:18:05.9292242+02:00" endTime="2013-05-21T15:18:11.0304951+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf7720f7-bf0f-43c6-abdb-f8b324b854fd">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+FixtureSetUp
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="20994243-401b-48ad-be0c-27c5e545f00a" testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" testName="GetAllPost_OnePostInDb_ReturnOnePost" computerName="WINDOWS-14CGTOT" duration="00:00:00.5761550" startTime="2013-05-21T15:18:11.0304951+02:00" endTime="2013-05-21T15:18:11.6077531+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20994243-401b-48ad-be0c-27c5e545f00a">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+FixtureSetUp
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a8902d8f-d894-4a48-84b0-9116a382cbb5" testId="a35c9170-4315-2bdb-070d-13a3313fa7f3" testName="AddPost_OnePostInDb_ReturnCorrectNumberOfPosts" computerName="WINDOWS-14CGTOT" duration="00:00:00.0088858" startTime="2013-05-21T15:18:11.6077531+02:00" endTime="2013-05-21T15:18:11.6232993+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8902d8f-d894-4a48-84b0-9116a382cbb5">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+FixtureSetUp
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

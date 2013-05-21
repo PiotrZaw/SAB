@@ -1,0 +1,32 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.Tests.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.Tests.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.Tests.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\TDD.DbTestHelpers.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.RepresentationModel.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\TDD.DbTestHelpers.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.Core.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.RepresentationModel.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\obj\Debug\Blog.DAL.Tests.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Blog\Blog.DAL.Tests\obj\Debug\Blog.DAL.Tests.pdb
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.Tests.dll.config
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.Tests.dll
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.Tests.pdb
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.dll
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\TDD.DbTestHelpers.dll
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.Core.dll
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.RepresentationModel.dll
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.pdb
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\TDD.DbTestHelpers.pdb
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.Core.pdb
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.RepresentationModel.pdb
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\obj\Debug\Blog.DAL.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\obj\Debug\Blog.DAL.Tests.dll
+C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL.Tests\obj\Debug\Blog.DAL.Tests.pdb
