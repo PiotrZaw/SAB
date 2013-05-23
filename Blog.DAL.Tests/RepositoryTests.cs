@@ -17,6 +17,7 @@ namespace Blog.DAL.Tests
     public class RepositoryTests : DbBaseTest<BlogFixtures>
     {
         [TestMethod]
+        [DeploymentItem(@"Fixtures\posts.yml", "Fixtures")]
         public void GetAllPost_OnePostInDb_ReturnOnePost()
         {
             // arrange

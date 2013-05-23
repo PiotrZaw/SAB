@@ -12,3 +12,10 @@ C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\bin\Debug\Ent
 C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\obj\Debug\Blog.DAL.csprojResolveAssemblyReference.cache
 C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\obj\Debug\Blog.DAL.dll
 C:\Users\Piotr\Desktop\TeamCity\temCity\temCity\Blog\Blog\Blog.DAL\obj\Debug\Blog.DAL.pdb
+C:\Users\Piotr\Documents\GitHub\SAB\Blog.DAL\bin\Debug\Blog.DAL.dll
+C:\Users\Piotr\Documents\GitHub\SAB\Blog.DAL\bin\Debug\Blog.DAL.pdb
+C:\Users\Piotr\Documents\GitHub\SAB\Blog.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Piotr\Documents\GitHub\SAB\Blog.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Piotr\Documents\GitHub\SAB\Blog.DAL\obj\Debug\Blog.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Piotr\Documents\GitHub\SAB\Blog.DAL\obj\Debug\Blog.DAL.dll
+C:\Users\Piotr\Documents\GitHub\SAB\Blog.DAL\obj\Debug\Blog.DAL.pdb
